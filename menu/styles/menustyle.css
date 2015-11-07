@@ -1,0 +1,67 @@
+body{
+	width: 100%;
+	height: 100%;
+}
+div, body, header, section, aside, article, footer, nav{
+	display: block;
+}
+#wrapper{
+	width: 994px;
+	border: 3px solid #303030;
+	border-radius: 8px;
+	margin: 20px auto;
+}
+#main_header{
+	width: 994px;
+	height: 250px;
+	border-radius: 5px 5px 0 0;
+	margin-bottom: -5px;
+}
+#main_section{
+	width: 954px;
+	padding: 20px;
+	background-color: #FFF;
+	border-radius: 0 0 5px 5px;
+	clear: both;
+}
+#step_bar{
+	width: 954px;
+	height: 40px;
+}
+.steps{
+	display: inline-block;
+	width: 128px;
+	height: 20px;
+	padding: 10px;
+	margin-right: 5px;
+	line-height: 40px;
+	border: 1px solid #404040;
+	border-radius: 4px 4px 0 0;
+	font: bold 14px calibri;
+	color: #606060;
+	background-color: #9EB2C1;
+}
+#steps_section{
+	width: 624px;
+	border: 1px solid #404040;
+	border-radius: 0 5px 5px 5px;
+	padding: 10px 0 10px 10px;
+	margin-top: 1px;
+	float:left;
+	background-color: #D1EBFF;
+}
+#steps_aside{
+	width: 298px;
+	float: left;
+	margin-left: 20px;
+}
+
+#steps_aside article.infoside{
+	width: 274px;
+	border: 2px solid #404040;
+	border-radius: 8px;
+	font: bolder 14px calibri;
+	color: #808080;
+	padding: 10px;
+	margin-bottom: 20px;
+}

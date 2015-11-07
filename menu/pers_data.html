@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<head>
+<meta charset="UTF-8" lang="en" />
+<title>Third</title>
+<link rel="stylesheet" href="styles/menustyle.css" />
+<link rel="stylesheet" href="styles/stepthree.css" />
+<link rel="stylesheet" href="styles/navstyles.css" />
+
+<style>
+    body{background-image: url("img/bg.jpg")}
+    #main_header{background-image: url("img/header.jpg")}
+    #main_section{height: 1100px;}
+    #s3{background-color: #D1EBFF; border-bottom: 0px; height: 21px;}
+    
+    .p_button, .option_button{background-image: url("img/buttons/order_button.jpg")}
+    .p_button:hover, .option_button:hover{background-image: url("img/buttons/order_button_hover.jpg")}
+    .p_button:active, .option_button:active{background-image: url("img/buttons/order_button_active.jpg")}
+    
+    .formButtons{background-image: url("img/buttons/form_button0.jpg");}
+    .formButtons:hover{background-image: url("img/buttons/form_button1.jpg");}
+    .formButtons:active{background-image: url("img/buttons/form_button2.jpg");}
+</style>
+
+
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:IsMyDocuments msdt:dt="string">1</mso:IsMyDocuments>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+
+<body>
+<div id="wrapper">
+<header id="main_header">
+	<img src='../PapaJohnsPizza_logo.jpg' style="border-radius: 5px 5px 0 0" height="250" width="994"/>
+</header>
+
+		<nav id="top_menu">
+			<ul>
+				<li style=" " ><a href="../index.html">Home</a></li>				
+				<li style="border-left: 1px solid black;" ><a href="index.html">Menu</a>
+					<ul>
+					<li><a href="extras.html">Extras</a></li>
+					<li><a href="pers_data.html">Ditails</a></li>
+					<li><a href="confirm.html">Confirm</a></li>
+					</ul>
+				</li>
+				<li style="border-left: 1px solid black; border-right: 1px solid black"><a href="../IwantPizzA/PapaJohnsIngredients.html">Ingredients</a></li>
+				<li id="lastSubChild" style=""><a href="../careers.html">Careers</a></li>
+			</ul>
+		</nav>
+
+<section id="main_section">    
+
+<div id="step_bar">
+    <div class="steps" id="s1">1. Select your order</div>
+    <div class="steps" id="s2">2. Sides &amp; Drinks</div>
+    <div class="steps" id="s3">3. Your Details</div>
+    <div class="steps" id="s4">4. Grab Your Order</div>
+</div>
+
+<section id="steps_section">
+    <article id="personal_detales">
+        <header>Address</header>
+        
+        <form name="step3" class="customerInfo" action="confirm.html" method="get">
+            <section>
+            <label for="firstName">First Name:<span style="color: red;">*</span> </label>
+            <input type="text" id="firstName" name="firstName" class="customerInfofield" /><br />
+            <label for="lastName">Last Name:<span style="color: red;">*</span> </label>
+            <input type="text" id="lastName" name="lastName" class="customerInfofield" /><br />
+            <label for="mobile">Phone Number:<span style="color: red;">*</span> </label>
+            <input type="text" id="mobile" name="mobile" class="customerInfofield" /><br />
+            <label for="address1">Address 1st Line:<span style="color: red;">*</span> </label>
+            <input type="text" name="address1" id="address1" class="customerInfofield" /><br />
+            <label for="address2">Address 2nd Line:<span style="color: red;">*</span> </label>
+            <input type="text" name="address2" id="address2" class="customerInfofield" /><br />
+            <label for="address3">Address 3rd Line: </label>
+            <input type="text" name="address3" id="address3" class="customerInfofield" /><br />
+            <label for="suburb">Suburb: </label>
+            <input type="text" name="suburb" id="suburb" class="customerInfofield" /><br />
+            <label for="city">City/Town:<span style="color: red;">*</span> </label>
+            <input type="text" name="city" id="city" class="customerInfofield" /><br />
+            <label for="county">County:<span style="color: red;">*</span> </label>
+            
+            <select class="customerInfofield" name="county" id="couny">
+                <option selected>Select County</option>
+                <option>Carlow</option>
+                <option>Cavan</option>
+                <option>Clare</option>
+                <option>Cork</option>
+                <option>Donegal</option>
+                <option>Dublin</option>
+                <option>Galway</option>
+                <option>Kerry</option>
+                <option>Kildare</option>
+                <option>Kilkenny</option>
+                <option>Laois</option>
+                <option>Leitrim</option>
+                <option>Limerick</option>
+                <option>Longford</option>
+                <option>Louth</option>
+                <option>Mayo</option>
+                <option>Meath</option>
+                <option>Monaghan</option>
+                <option>Offaly</option>
+                <option>Roscommon</option>
+                <option>Sligo</option>
+                <option>Tipperary</option>
+                <option>Waterford</option>
+                <option>Westmeath</option>
+                <option>Wexford</option>
+                <option>Wicklow</option>
+            </select><br />
+        </section>
+        <footer id="address_footer">
+            <input type="reset" value="RESET" class="formButtons" />
+            <input type="button" value="CANCEL" name="cancel" class="formButtons" />
+            <input type="submit" name="submit" value="NEXT" class="formButtons" />
+            <p><span style="color: red;">*</span> - must to be filled in.</p>
+        </footer>
+        </form>
+        
+    </article>
+</section>
+
+<aside id="steps_aside">
+    <article class="infoside">The store or the delivery driver may call the number you provide to confirm your order/address</article>
+    <article class="infoside">All calorie counts are for a large slice of a classic crust pizza. 
+        Calorie counts on medium, small and personal slices of classic crust pizzas will be lower.</article>
+    <article class="infoside">•Contains Gluten. Please note: Pizza’s marked as not containing gluten must be ordered with the 
+        Gluten Free base.This crust will not be sliced.</article>
+    <article class="infoside"><img src="img/side_baner.jpg" /></article>
+</aside>
+    
+</section>
+</div>
+
+<script>
+    function dataStore(){
+        var n=this.name;
+        
+        if(this.type==="button"){
+            if(this.name==="cancel"){
+                var cookies=document.cookie.split(";");
+                for(var i=0; i<cookies.length; i++){
+                    var c=cookies[i].split("=");
+                    var cookiename=c[0];
+                    document.cookie=cookiename+"=none; max-age=0";
+                }
+                location.replace("../index.html");
+            }
+        }
+    }
+    
+    var f=document.step3;
+    var e=f.elements;
+    for(i=0; i<e.length; i++){
+        if(e[i].type=="text"||e[i].type=="select-one"){
+            e[i].onchange=dataStore;
+        }
+        
+        if(e[i].type=="button"){
+            e[i].onclick=dataStore;
+        }
+    }
+</script>
+
+</body>
+</html>

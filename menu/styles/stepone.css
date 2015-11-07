@@ -1,0 +1,92 @@
+#step_one_header{
+	width: 610px;
+	height: 90px;
+	padding-top: 30px;
+	margin-bottom: 10px;
+}
+#step_one_header div{
+	display: inline-block;
+}
+#sohd1 > article{
+	width: 300px;
+	height: 20px;
+	line-height: 20px;
+	font: bolder 15px calibri;
+	color: #606060;
+	border: 0px solid red;
+	padding-bottom: 5px;
+}
+#sohd2{
+	width: 280px;
+	padding: 10px;
+	font: bolder 14px calibri;
+	border: 2px solid #404040;
+	border-radius: 6px;
+	color: #A52A2A;
+}
+.pizza_articles{
+	width: 288px;
+	height: 150px;
+	border: 1px solid #808080;
+	margin-right: 10px;
+	display: inline-block;
+	padding: 5px;
+}
+
+/********************************** STYLING TABLE *************************************************/
+.pat{
+	width: 288px;
+	height: 150px;
+	border-collapse: collapse;
+}
+.top_row{
+	height: 90px;
+}
+.top_row td:first-child{
+	width: 132px;
+}
+.right_column>header{
+	height: 20px;
+	padding-left: 5px;
+	font: bolder 16px calibri;
+}
+.right_column>section{
+	height: 80px;
+	font:normal 12px calibri;
+	color: #808080;
+	padding: 0 5px;
+}
+.p_img img{
+	border: 1px solid #A52A2A;
+	width:130px;
+	height: 97px;
+}
+.simbols{width: 18px; height: 17px; display: inline-block;}
+.p_button{
+	width: 100px;
+	height: 24px;
+	border: 1px solid #505050;
+	border-radius: 6px;
+	font: bolder 15px Arial;
+	color: #FFFCEF;
+	margin-left: 30px;
+}
+/**************************************** TABLE *****************************************************/
+
+#psf{
+    clear: both;
+    width: 572px;
+    height: 30px;
+    padding: 10px 20px;
+    border: 1px solid #909090;
+    text-align: right;
+}
+#psf input{
+    display: inline-block;
+    width: 150px;
+    height: 28px;
+    border: 1px solid #505050;
+    border-radius: 6px;
+    font: bolder 15px Arial;
+    color: #E0E0E0;
+}

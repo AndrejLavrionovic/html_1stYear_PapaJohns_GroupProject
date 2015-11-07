@@ -1,0 +1,47 @@
+#personal_detales{
+	margin-left: 10px;
+}
+#personal_detales header{
+	height: 19px;
+	width: 150px;
+	border-radius: 6px 6px 0 0;
+	padding: 10px 0 0 0px;
+	margin: 0 0 40px 0;
+	font: normal 18px Arial;
+	color: #505050;
+	border-bottom: 1px solid #808080;
+}
+
+form.customerInfo label{
+	display: inline-block;
+	width: 250px;
+	height: 40px;
+	line-height: 40px;
+	font: bold 14px verdana;
+	color: #606060;
+}
+.customerInfofield{
+	width: 200px;
+	height: 22px;
+	font: bolder 16px calibri;
+	color: #404040;
+	padding-left: 10px;
+	border: 1px solid #808080;
+	border-radius: 5px;
+}
+.formButtons{
+	width: 100px;
+ 	height: 30px;
+ 	line-height: 30px;
+ 	font: bolder 20px calibri;
+ 	color: #404040;
+ 	border: 1px solid #808080;
+ 	border-radius: 5px;
+}
+#address_footer{
+	margin-top: 20px;
+}
+#address_footer p{
+ 	font: bolder 16px calibri;
+ 	color: #404040;
+}

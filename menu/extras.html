@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<head>
+<meta charset="UTF-8" lang="en" />
+<title>Second</title>
+<link rel="stylesheet" href="styles/menustyle.css" />
+<link rel="stylesheet" href="styles/steptwo.css" />
+<link rel="stylesheet" href="styles/navstyles.css" />
+<style>
+    body{background-image: url("img/bg.jpg")}
+    #main_header{background-image: url("img/header.jpg")}
+    #main_section{height: 2100px;}
+    #s2{background-color: #D1EBFF; border-bottom: 0px; height: 21px;}
+    
+    .p_button{background-image: url("img/buttons/order_button.jpg")}
+    .p_button:hover{background-image: url("img/buttons/order_button_hover.jpg")}
+    .p_button:active{background-image: url("img/buttons/order_button_active.jpg")}
+</style>
+
+
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:IsMyDocuments msdt:dt="string">1</mso:IsMyDocuments>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+<body>
+<div id="wrapper">
+<header id="main_header">
+	<img src='../PapaJohnsPizza_logo.jpg' style="border-radius: 5px 5px 0 0" height="250" width="994"/>
+</header>
+
+		<nav id="top_menu">
+			<ul>
+				<li style=" " ><a href="../index.html">Home</a></li>				
+				<li style="border-left: 1px solid black;" ><a href="index.html">Menu</a>
+					<ul>
+					<li><a href="extras.html">Extras</a></li>
+					<li><a href="pers_data.html">Ditails</a></li>
+					<li><a href="confirm.html">Confirm</a></li>
+					</ul>
+				</li>
+				<li style="border-left: 1px solid black; border-right: 1px solid black"><a href="../IwantPizzA/PapaJohnsIngredients.html">Ingredients</a></li>
+				<li id="lastSubChild" style=""><a href="../careers.html">Careers</a></li>
+			</ul>
+		</nav>
+
+<section id="main_section">    
+
+<div id="step_bar">
+    <div class="steps" id="s1">1. Select your order</div>
+    <div class="steps" id="s2">2. Sides &amp; Drinks</div>
+    <div class="steps" id="s3">3. Your Details</div>
+    <div class="steps" id="s4">4. Grab Your Order</div>
+</div>
+
+<section id="steps_section">
+    
+<header id="step_two_header"> </header>
+
+<article id="size_selection_article">
+    <header>Select size</header>
+    <section>
+        <table id="pstab">
+            <tr id="imgtab">
+                <td><img src="img/p_sizes/MedRD6x170.jpg" /></td>
+                <td><img src="img/p_sizes/LrgRD8x170.jpg" /></td>
+                <td><img src="img/p_sizes/GntRD12x170.jpg" /></td>
+            </tr>
+            <tr id="sizetab">
+                <td>6"(€12.00)</td>
+                <td>8"(€18.00)</td>
+                <td>12"(€22.00)</td>
+            </tr>
+            <tr id="psradiotab">
+                <form>
+                <td><input type="radio" id="size 6&quot;" name="size" value="12.00" /></td>
+                <td><input type="radio" id="size 8&quot;" name="size" value="18.00" /></td>
+                <td><input type="radio" id="size 12&quot;" name="size" value="22.00" /></td>
+                </form>
+            </tr>
+        </table>
+    </section>
+</article>
+
+<article id="title_article">Extras</article>
+
+<article id="extras_article">
+    <form id="extras_form" name="extras_form">
+    <section id="eas">
+        <article id="sides_article">
+            <header class="eash" id="sideartheader">Sides</header>
+            <section id="sideartsection">
+                <table>
+                    <tr>
+                        <td class="extrasimg"><img src="img/sides/BBQWings21.jpg" /></td>
+                        <td class="extrassimb"><div><img src="img/simbols/hot-symbol.png" /></div><div><img src="img/simbols/containsgluten-symbol.png" /></div></td>
+                        <td class="extrasdescription"><header>Spicy BBQ Wings</header><section>21 chicken wings coated in BBQ sauce</section></td>
+                        <td class="extrasprice">€12.00</td>
+                        <td class="extrascheckbox"><input type="checkbox" name="Spicy BBQ Wings" id="Spicy BBQ Wings" value="12.00" /></td>
+                    </tr>
+                    <tr>
+                        <td class="extrasimg"><img src="img/sides/Cheesy_nachos.jpg" /></td>
+                        <td class="extrassimb"><div><img src="img/simbols/hot-symbol.png" /></div><div><img src="img/simbols/containsgluten-symbol.png" /></div></td>
+                        <td class="extrasdescription"><header>Cheesy Nachos</header><section>Cheese flavored nachos with guacamole (sauce based on avocado) and tomato salsa.</section></td>
+                        <td class="extrasprice">€10.00</td>
+                        <td class="extrascheckbox"><input type="checkbox" name="Cheesy Nachos" id="Cheesy Nachos" value="10.00" /></td>
+                    </tr>
+                    <tr>
+                        <td class="extrasimg"><img src="img/sides/FRANKS_WINGS_7.jpg" /></td>
+                        <td class="extrassimb"><div><img src="img/simbols/containsgluten-symbol.png" /></div></td>
+                        <td class="extrasdescription"><header>FRANK'S® RedHot® Wings</header><section>21 Chicken wings coated in FRANK'S® RedHot® (Needs to be ordered with a pizza for delivery)</section></td>
+                        <td class="extrasprice">€12.00</td>
+                        <td class="extrascheckbox"><input type="checkbox" name="FRANK'S® RedHot® Wings" id="FRANK'S® RedHot® Wings" value="12.00" /></td>
+                    </tr>
+                    <tr>
+                        <td class="extrasimg"><img src="img/sides/Fries.jpg" /></td>
+                        <td class="extrassimb"><div><img src="img/simbols/containsgluten-symbol.png" /></div><div><img src="img/simbols/vegetarian-symbol.png" /></div></td>
+                        <td class="extrasdescription"><header>FRENCH FRIES</header><section>Homemade French Fries</section></td>
+                        <td class="extrasprice">€6.00</td>
+                        <td class="extrascheckbox"><input type="checkbox" name="FRENCH FRIES" id="FRENCH FRIES" value="6.00" /></td>
+                    </tr>
+                </table>
+            </section>
+        </article>
+        <article id="drinks_article">
+            <header class="eash" id="drinkartheader">Drinks</header>
+            <section id="drinkartsection">
+                <table>
+                    <tr>
+                        <td class="extrasimg"><img src="img/drinks/coke.jpg" width="99" height="66" /></td>
+                        <td class="extrasdescription"><header>Coca Cola (330mL)</header></td>
+                        <td class="extrasprice">€1.20</td>
+                        <td class="extrascheckbox"><input type="checkbox" name="Coca Cola (330mL)" id="coke" value="1.20" /></td>
+                    </tr>
+                    <tr>
+                        <td class="extrasimg"><img src="img/drinks/dietco.jpg" width="99" height="66" /></td>
+                        <td class="extrasdescription"><header>Diet Coke (330mL)</header></td>
+                        <td class="extrasprice">€1.20</td>
+                        <td class="extrascheckbox"><input type="checkbox" name="Diet Coke (330mL)" id="dietcoke" value="1.20" /></td>
+                    </tr>
+                    <tr>
+                        <td class="extrasimg"><img src="img/drinks/fanta.jpg" width="99" height="66" /></td>
+                        <td class="extrasdescription"><header>Fanta (330mL)</header></td>
+                        <td class="extrasprice">€1.20</td>
+                        <td class="extrascheckbox"><input type="checkbox" name="Fanta (330mL)" id="fanta" value="1.20" /></td>
+                    </tr>
+                    <tr>
+                        <td class="extrasimg"><img src="img/drinks/riverrock.jpg" width="99" height="66" /></td>
+                        <td class="extrasdescription"><header>Riverrock (330mL)</header></td>
+                        <td class="extrasprice">€1.20</td>
+                        <td class="extrascheckbox"><input type="checkbox" name="Riverrock (330mL)" id="riverrock" value="1.20" /></td>
+                    </tr>
+                    <tr>
+                        <td class="extrasimg"><img src="img/drinks/sprite.jpg" width="99" height="66" /></td>
+                        <td class="extrasdescription"><header>Sprite (330mL)</header></td>
+                        <td class="extrasprice">€1.20</td>
+                        <td class="extrascheckbox"><input type="checkbox" name="Sprite (330mL)" id="sprite" value="1.20" /></td>
+                    </tr>
+                </table>
+            </section>
+        </article>
+        <article id="desert_article">
+            <header class="eash" id="desartheader">Dessert</header>
+            <section id="desartsection">
+                <table>
+                    <tr>
+                        <td class="extrasimg"><img src="img/desert/bj_OhMyApplePie.jpg" width="99" height="66" /></td>
+                        <td class="extrasdescription"><header>Ben &amp; Jerry's - Oh My Apple Pie</header></td>
+                        <td class="extrasprice">€3.50</td>
+                        <td class="extrascheckbox"><input type="checkbox" name="Ben & Jerry's - Oh My Apple Pie" id="apple" value="3.50" /></td>
+                    </tr>
+                    <tr>
+                        <td class="extrasimg"><img src="img/desert/bj_brownie.jpg" width="99" height="66" /></td>
+                        <td class="extrasdescription"><header>Ben &amp; Jerry's - Chocolate Fudge Brownie</header></td>
+                        <td class="extrasprice">€3.50</td>
+                        <td class="extrascheckbox"><input type="checkbox" name="Ben & Jerry's - Chocolate Fudge Brownie" id="chocklate" value="3.50" /></td>
+                    </tr>
+                    <tr>
+                        <td class="extrasimg"><img src="img/desert/bj_caramel.jpg" width="99" height="66" /></td>
+                        <td class="extrasdescription"><header>Ben &amp; Jerry's - Caramel Chew Chew</header></td>
+                        <td class="extrasprice">€3.50</td>
+                        <td class="extrascheckbox"><input type="checkbox" name="Ben & Jerry's - Caramel Chew Chew" id="caramel" value="3.50" /></td>
+                    </tr>
+                    <tr>
+                        <td class="extrasimg"><img src="img/desert/bj_cookiedough.jpg" width="99" height="66" /></td>
+                        <td class="extrasdescription"><header>Ben &amp; Jerry's - Cookie Dough</header></td>
+                        <td class="extrasprice">€3.50</td>
+                        <td class="extrascheckbox"><input type="checkbox" name="Ben & Jerry's - Cookie Dough" id="cookie" value="3.50" /></td>
+                    </tr>
+                </table>
+            </section>
+        </article>
+        <article id="dips_article">
+            <header class="eash" id="dipsartheader">Dips</header>
+            <section id="dipsartsection">
+                <table>
+                   <tr>
+                        <td class="extrasimg"><img src="img/Dips80x80.jpg" /></td>
+                        <td class="extrassimb"><div><img src="img/simbols/vegetarian-symbol.png" /></div></td>
+                        <td class="extrasdescription"><header>Honey &amp; Mustard</header></td>
+                        <td class="extrasprice">€0.50</td>
+                        <td class="extrascheckbox"><input type="checkbox" name="Honey & Mustard" id="honey" value="0.50" /></td>
+                    </tr>
+                    <tr>
+                        <td class="extrasimg"><img src="img/Dips80x80.jpg" /></td>
+                        <td class="extrassimb"><div><img src="img/simbols/vegetarian-symbol.png" /></div></td>
+                        <td class="extrasdescription"><header>Garlic &amp; Herb</header></td>
+                        <td class="extrasprice">€0.50</td>
+                        <td class="extrascheckbox"><input type="checkbox" name="Garlic & Herb" id="garlic" value="0.50" /></td>
+                    </tr>
+                    <tr>
+                        <td class="extrasimg"><img src="img/Dips80x80.jpg" /></td>
+                        <td class="extrassimb"><div><img src="img/simbols/vegetarian-symbol.png" /></div></td>
+                        <td class="extrasdescription"><header>Sweet Chilli</header></td>
+                        <td class="extrasprice">€0.50</td>
+                        <td class="extrascheckbox"><input type="checkbox" name="Sweet Chilli" id="sweetchilli" value="0.50" /></td>
+                    </tr>
+                    <tr>
+                        <td class="extrasimg"><img src="img/Dips80x80.jpg" /></td>
+                        <td class="extrassimb"><div><img src="img/simbols/vegetarian-symbol.png" /></div></td>
+                        <td class="extrasdescription"><header>Barbecue</header></td>
+                        <td class="extrasprice">€0.50</td>
+                        <td class="extrascheckbox"><input type="checkbox" name="Barbecue" id="bbq" value="0.50" /></td>
+                    </tr>
+                    <tr>
+                        <td class="extrasimg"><img src="img/Dips80x80.jpg" /></td>
+                        <td class="extrassimb"><div><img src="img/simbols/vegetarian-symbol.png" /></div></td>
+                        <td class="extrasdescription"><header>FRANK'S® RedHot® dip</header></td>
+                        <td class="extrasprice">€0.50</td>
+                        <td class="extrascheckbox"><input type="checkbox" name="FRANK'S® RedHot® dip" id="redhot" value="0.50" /></td>
+                    </tr>
+                </table>
+            </section>
+        </article>
+    </section>
+    <footer id="eaf">
+        <input type="button" class="p_button" name="backButton" id="backButton" value="BACK" />
+        <input type="button" class="p_button" name="cancelButton" id="cancelButton" value="CANCEL" />
+        <input type="button" class="p_button" name="next" id="next" value="NEXT" />
+    </footer>
+    </form>
+</article>
+
+</section>
+
+<aside id="steps_aside">
+    <article class="checkout_aside">
+        <header id="cah">Checkout</header>
+        <section id="cas">
+            <table id="checkoutTab">
+                <thead><tr><td class="item">Item</td><td class="price">Price</td></tr></thead>
+                <tbody id="tbody"> </tbody>
+                <tfoot><tr><td>Total:</td><td id="total"> </td></tr></tfoot>
+            </table>
+        </section>
+        <footer id="caf">
+            <input type="button" name="next" value="CHECKOUT" class="p_button" id="checkoutbutton" />
+        </footer>
+    </article>
+    <article class="infoside">The store or the delivery driver may call the number you provide to confirm your order/address</article>
+    <article class="infoside">All calorie counts are for a large slice of a classic crust pizza. 
+        Calorie counts on medium, small and personal slices of classic crust pizzas will be lower.</article>
+    <article class="infoside">•Contains Gluten. Please note: Pizza’s marked as not containing gluten must be ordered with the 
+        Gluten Free base.This crust will not be sliced.</article>
+    <article class="infoside"><img src="img/side_baner2.jpg" /></article>
+</aside>
+
+</section>    
+</div>
+
+<script>
+    var totals=0.00;
+    
+    function handlers(){
+        var n=this.name, v=this.value, id=this.id, item;
+        
+        if(this.type==="radio"||this.type==="checkbox"){
+            var tBodyObj=document.getElementById("tbody");
+            var rowObj=document.createElement("tr");
+            rowObj.className="tbodyrow";
+            rowObj.name="tbodyrow";
+            var celObj1=document.createElement("td");
+            var celObj2=document.createElement("td");
+            celObj1.className="cell1";
+            celObj2.className="cell2";
+            celObj1.name="cell1";
+            celObj2.name="cell2";
+            
+            var newRow=tBodyObj.appendChild(rowObj);
+            var newCell1=newRow.appendChild(celObj1);
+            var newCell2=newRow.appendChild(celObj2);
+            
+            if(this.type==="radio"){
+                var allcookies=document.cookie;
+                var pos=allcookies.indexOf("pizza");
+                if(pos!=-1){
+                    var start=pos+6;
+                    var end=allcookies.indexOf(";", start);
+                    if(end==-1){
+                        end=allcookies.length;
+                    }
+                    var value=allcookies.substring(start, end);
+                }
+                /*else{
+                    alert("Select your pizza first!");
+                    location.replace("index.html");
+                }*/
+                item=value+" "+id;
+                newCell1.appendChild(document.createTextNode(item));
+            }
+            else if(this.type==="checkbox"){
+                item=n;
+                newCell1.appendChild(document.createTextNode(item));
+            }
+            newCell2.appendChild(document.createTextNode("€"+parseFloat(v).toFixed(2)));
+            
+            totals=(parseFloat(totals))+(parseFloat(v));
+            document.getElementById("total").innerHTML="€"+(totals.toFixed(2));
+            
+            document.cookie=item+"="+v;
+        }
+        
+        if(this.name==="backButton"){
+            location.replace("index.html");
+        }
+        if(this.name==="cancelButton"){
+            var cookies=document.cookie.split(";");
+            for(var i=0; i<cookies.length; i++){
+                var c=cookies[i].split("=");
+                var cname=c[0];
+                document.cookie=cname+"=none; max-age=0";
+            }
+            location.replace("../index.html");
+        }
+        if(this.name==="next"){
+            var cookies=document.cookie.split(";");
+            if(cookies.length>=1){
+                location.replace("pers_data.html");
+            }
+            else{
+                alert("Choose your order!");
+            }
+        }
+    }
+    
+    var f = document.forms;
+    
+    var el1 = f[0].elements;
+    for(var i=0; i<el1.length; i++){
+        el1[i].onclick = handlers;
+    }
+    
+    var el2 = f[1].elements;
+    for(i=0; i<el2.length; i++){
+        el2[i].onclick = handlers;
+    }
+    document.getElementById("checkoutbutton").onclick = handlers;
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<head>
+<meta charset="UTF-8" lang="en" />
+<title>First</title>
+<link rel="stylesheet" href="styles/menustyle.css" />
+<link rel="stylesheet" href="styles/stepone.css" />
+<link rel="stylesheet" href="styles/navstyles.css" />
+<style>
+    body{background-image: url("img/bg.jpg")}
+    /*#main_header{background-image: url("img/header.jpg")}*/
+    #main_section{height: 1100px;}
+    #s1{background-color: #D1EBFF; border-bottom: 0px; height: 21px;}
+    
+    .p_button, .option_button{background-image: url("img/buttons/order_button.jpg")}
+    .p_button:hover, .option_button:hover{background-image: url("img/buttons/order_button_hover.jpg")}
+    .p_button:active, .option_button:active{background-image: url("img/buttons/order_button_active.jpg")}
+</style>
+
+
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:IsMyDocuments msdt:dt="string">1</mso:IsMyDocuments>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+<body>
+<div id="wrapper">
+<header id="main_header">
+	<img src='../PapaJohnsPizza_logo.jpg' style="border-radius: 5px 5px 0 0" height="250" width="994"/>
+</header>
+
+		<nav id="top_menu">
+			<ul>
+				<li style=" " ><a href="../index.html">Home</a></li>				
+				<li style="border-left: 1px solid black;" ><a href="index.html">Menu</a>
+					<ul>
+					<li><a href="extras.html">Extras</a></li>
+					<li><a href="pers_data.html">Details</a></li>
+					<li><a href="confirm.html">Confirm</a></li>
+					</ul>
+				</li>
+				<li style="border-left: 1px solid black; border-right: 1px solid black"><a href="../IwantPizzA/PapaJohnsIngredients.html">Ingredients</a></li>
+				<li id="lastSubChild" style=""><a href="../careers.html">Careers</a></li>
+			</ul>
+		</nav>
+
+<section id="main_section">    
+
+<div id="step_bar">
+    <div class="steps" id="s1">1. Select your order</div>
+    <div class="steps" id="s2">2. Sides &amp; Drinks</div>
+    <div class="steps" id="s3">3. Your Details</div>
+    <div class="steps" id="s4">4. Grab Your Order</div>
+</div>
+
+<section id="steps_section">
+    <header id="step_one_header">
+        <div id="sohd1">
+            <article><img src="img/simbols/hot-symbol.png" /> - HOT</article>
+            <article><img src="img/simbols/containsgluten-symbol.png" /> - CONTAINS GLUTEN</article>
+            <article><img src="img/simbols/vegetarian-symbol.png" /> - VEGETARIAN</article>
+        </div>
+        <div id="sohd2">
+            For a Gluten Free pizza, ensure you customise and select a Gluten Free Crust. This crust will not be sliced.
+        </div>
+    </header>
+    <article class="pizza_articles">
+        <table class="pat">
+            <tr class="top_row">
+                <td class="p_img"><img src="img/menu/firenze.jpg" /></td>
+                <td>
+                    <article class="right_column">
+                        <header class="rch">Firenze</header>
+                        <section>
+                            Ventricina Salami, Pepperoni and Peruvian Roquito Peppers on a fresh thin crust base. 179kcal / large slice.
+                        </section>
+                    </article>
+                </td>
+            </tr>
+            <tr class="bottom_row"><td>
+                <div class="simbols"><img src="img/simbols/hot-symbol.png" /></div>
+                <div class="simbols"><img src="img/simbols/containsgluten-symbol.png" /></div>
+                </td>
+                <td>
+                    <form method="post" id="pizzaSelection" name="pizzaSelection" action="maialto:g00196984@gmit.ie">
+                    <input type="button" class="p_button" name="Firenze" id="Firenze" value="Order" />
+                </td></tr>
+        </table>
+    </article>
+    <article class="pizza_articles">
+        <table class="pat">
+            <tr class="top_row">
+                <td class="p_img"><img src="img/menu/four_seazons.jpg" /></td>
+                <td>
+                    <article class="right_column">
+                        <header class="rch">Four Seasons</header>
+                        <section>
+                            Вј Rustica, Вј Firenze, Вј Florentine, Вј SunBlushВ® baby plum tomatoes (No topping changes can be made to this pizza)
+                        </section>
+                    </article>
+                </td>
+            </tr>
+            <tr class="bottom_row"><td>
+                <div class="simbols"><img src="img/simbols/hot-symbol.png" /></div>
+                <div class="simbols"><img src="img/simbols/containsgluten-symbol.png" /></div>
+                </td>
+                <td>
+                    <input type="button" class="p_button" name="Four Seasons" id="Four Seasons" value="Order" />
+                </td></tr>
+        </table>        
+    </article>
+    <article class="pizza_articles">
+        <table class="pat">
+            <tr class="top_row">
+                <td class="p_img"><img src="img/menu/florentine.jpg" /></td>
+                <td>
+                    <article class="right_column">
+                        <header class="rch">Florentine</header>
+                        <section>
+                            Baby Spinach, SunBlush Baby Plum Tomatoes and Greek Feta Cheese on a fresh thin crust base. 152kcal / large slice.
+                        </section>
+                    </article>
+                </td>
+            </tr>
+            <tr class="bottom_row"><td>
+                <div class="simbols"><img src="img/simbols/containsgluten-symbol.png" /></div>
+                <div class="simbols"><img src="img/simbols/vegetarian-symbol.png" /></div>
+                </td>
+                <td>
+                    <input type="button" class="p_button" name="Florentine" id="Florentine" value="Order" />
+                </td></tr>
+        </table>        
+    </article>
+    <article class="pizza_articles">
+        <table class="pat">
+            <tr class="top_row">
+                <td class="p_img"><img src="img/menu/rustica.jpg" /></td>
+                <td>
+                    <article class="right_column">
+                        <header class="rch">Rustica</header>
+                        <section>
+                            Chicken breast strips, smoked bacon rashers, 
+                            baby spinach and SunBlush baby plum tomatoes. 
+                            164kcal / large slice.
+                        </section>
+                    </article>
+                </td>
+            </tr>
+            <tr class="bottom_row"><td>
+                <div class="simbols"><img src="img/simbols/containsgluten-symbol.png" /></div>
+                </td>
+                <td>
+                    <input type="button" class="p_button" name="Rustica" id="Rustica" value="Order" />
+                </td></tr>
+        </table>        
+    </article>
+    
+    <article class="pizza_articles">
+        <table class="pat">
+            <tr class="top_row">
+                <td class="p_img"><img src="img/menu/MeatXtreme.jpg" /></td>
+                <td>
+                    <article class="right_column">
+                        <header class="rch">Meat Xtreme</header>
+                        <section>
+                            Pepperoni, Ham, Chorizo, Tandoori Chicken, Pork Meatballs and Smoky Bacon.
+                        </section>
+                    </article>
+                </td>
+            </tr>
+            <tr class="bottom_row"><td>
+                <div class="simbols"><img src="img/simbols/containsgluten-symbol.png" /></div>
+                </td>
+                <td>
+                    <input type="button" class="p_button" name="Meat Xtreme" id="Meat Xtreme" value="Order" />
+                </td></tr>
+        </table>
+    </article>
+    <article class="pizza_articles">
+        <table class="pat">
+            <tr class="top_row">
+                <td class="p_img"><img src="img/menu/ranch-bbq.jpg" /></td>
+                <td>
+                    <article class="right_column">
+                        <header class="rch">Ranch BBQ</header>
+                        <section>
+                            BBQ sauce, chicken breast strips, pepperoni, ground beef, bacon.
+                        </section>
+                    </article>
+                </td>
+            </tr>
+            <tr class="bottom_row"><td>
+                <div class="simbols"><img src="img/simbols/containsgluten-symbol.png" /></div>
+                </td>
+                <td>
+                    <input type="button" class="p_button" name="Ranch BBQ" id="Ranch BBQ" value="Order" />
+                </td></tr>
+        </table>        
+    </article>
+    <article class="pizza_articles">
+        <table class="pat">
+            <tr class="top_row">
+                <td class="p_img"><img src="img/menu/SpanishSizzler.jpg" /></td>
+                <td>
+                    <article class="right_column">
+                        <header class="rch">Spanish Sizzler</header>
+                        <section>
+                            Roast Chicken, Green Peppers, Chorizo Sausage, and Roquito Peppers.
+                        </section>
+                    </article>
+                </td>
+            </tr>
+            <tr class="bottom_row"><td>
+                <div class="simbols"><img src="img/simbols/hot-symbol.png" /></div>
+                <div class="simbols"><img src="img/simbols/containsgluten-symbol.png" /></div>
+                </td>
+                <td>
+                    <input type="button" class="p_button" name="Spanish Sizzler" id="Spanish Sizzler" value="Order" />
+                </td></tr>
+        </table>        
+    </article>
+    <article class="pizza_articles">
+        <table class="pat">
+            <tr class="top_row">
+                <td class="p_img"><img src="img/menu/vegisupreme-pizza.jpg" /></td>
+                <td>
+                    <article class="right_column">
+                        <header class="rch">Vegetarian Supreme</header>
+                        <section>
+                            Onions, green peppers, sweetcorn, mushrooms, tomatoes. 192kcal / large slice.
+                        </section>
+                    </article>
+                </td>
+            </tr>
+            <tr class="bottom_row"><td>
+                <div class="simbols"><img src="img/simbols/containsgluten-symbol.png" /></div>
+                <div class="simbols"><img src="img/simbols/vegetarian-symbol.png" /></div>
+                </td>
+                <td>
+                    <input type="button" class="p_button" name="Vegetarian Supreme" id="Vegetarian Supreme" value="Order" />
+                </td></tr>
+        </table>        
+    </article>
+    
+        <article class="pizza_articles">
+        <table class="pat">
+            <tr class="top_row">
+                <td class="p_img"><img src="img/menu/vegiroma-pizza.jpg" /></td>
+                <td>
+                    <article class="right_column">
+                        <header class="rch">Veg - a - Roma</header>
+                        <section>
+                            Sundried tomato &amp; garlic sauce, onions, mushrooms, green peppers, herbs. 240kcal / large slice.
+                        </section>
+                    </article>
+                </td>
+            </tr>
+            <tr class="bottom_row"><td>
+                <div class="simbols"><img src="img/simbols/containsgluten-symbol.png" /></div>
+                <div class="simbols"><img src="img/simbols/vegetarian-symbol.png" /></div>
+                </td>
+                <td>
+                    <input type="button" class="p_button" name="Veg - a - Roma" id="Veg - a - Roma" value="Order" />
+                </td></tr>
+        </table>        
+    </article>
+    <article class="pizza_articles">
+        <table class="pat">
+            <tr class="top_row">
+                <td class="p_img"><img src="img/menu/TheCarolina.jpg" /></td>
+                <td>
+                    <article class="right_column">
+                        <header class="rch">The Carolina</header>
+                        <section>
+                            BBQ sauce, chicken breast strips, smoked bacon rashers, onions, tomatoes, crispy onions, drizzled with mustard mayo.
+                        </section>
+                    </article>
+                </td>
+            </tr>
+            <tr class="bottom_row"><td>
+                <div class="simbols"><img src="img/simbols/containsgluten-symbol.png" /></div>
+                </td>
+                <td>
+                    <input type="button" class="p_button" name="The Carolina" id="The Carolina" value="Order" />
+                    
+                </td></tr>
+        </table>        
+    </article>
+    <footer id="psf">
+        <input type="button" class="option_button" name="cancelButton" id="cancelButton" value="CANCEL" />
+        <input type="button" class="option_button" name="nextButton" id="nextButton" value="NEXT" />
+    </footer>
+    </form>
+
+</section>
+
+<script type="text/javascript">
+
+    function selectPizza(){
+        if(this.name==="nextButton"){
+            location.replace("extras.html");
+        }
+        if(this.name==="cancelButton"){
+            location.replace("../index.html");
+        }
+        if(this.value==="Order"){
+            document.cookie="pizza="+this.id;
+            location.replace("extras.html");
+        }
+    }
+    
+    var f=document.forms;
+    var e=f[0].elements;
+    for(var i=0; i<e.length; i++){
+        e[i].onclick=selectPizza;
+    }
+
+</script>
+
+<aside id="steps_aside">
+    <article class="infoside">The store or the delivery driver may call the number you provide to confirm your order/address</article>
+    <article class="infoside">All calorie counts are for a large slice of a classic crust pizza. 
+        Calorie counts on medium, small and personal slices of classic crust pizzas will be lower.</article>
+    <article class="infoside">вЂўContains Gluten. Please note: PizzaвЂ™s marked as not containing gluten must be ordered with the 
+        Gluten Free base.This crust will not be sliced.</article>
+    <article class="infoside"><img src="img/side_baner.jpg" /></article>
+</aside>
+    
+</section>    
+</div>
+</body>
+</html>

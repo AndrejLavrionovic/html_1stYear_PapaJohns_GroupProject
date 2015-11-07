@@ -1,0 +1,59 @@
+#s4header{
+	width: 560px;
+	height: 20px;
+	padding: 5px 0 5px 20px;
+	margin: 0px auto;
+	border: 1px solid black;
+	border-radius: 8px 8px 0 0;
+	font: bolder 16px Arial;
+	color: #707070;
+	background-color: #CAF6F7;
+}
+#s4section{
+	margin: 0 auto;
+	width: 540px;
+	border: 1px solid black;
+	padding: 20px;
+}
+#order_list, #location{
+	font: normal 18px calibri;
+	color: #707070;
+}
+
+#tab{
+    width: 400px;
+    border-collapse: collapse;
+}
+.cell1, .cell1tot{
+    width: 260px;
+    padding: 0 20px;
+}
+.cell2, .cell2tot{
+    text-align: center;
+}
+.cell2, .cell1, #tab, .cell1tot, .cell2tot{
+    border: 1px solid #b0b0b0;
+}
+cell1tot, cell2tot{
+    font-weight: bold;
+    color: #505050;
+}
+
+#s4footer{
+    height: 30px;
+    width: 500px;
+    margin-top: 20px;
+}
+.p_button{
+    text-align: center;
+    width: 120px;
+    height: 24px;
+    margin-left: 270px;
+    border: 1px solid #505050;
+    border-radius: 6px;
+    font: bolder 15px Arial;
+    color: #FFFCEF;
+    cursor: pointer;
+	padding-top: 4px;
+}
+

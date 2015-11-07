@@ -1,0 +1,185 @@
+
+/****************SIZE SELECTION BLOCK****************/
+#size_selection_article{
+	width: 612px;
+	border: 1px solid #808080;
+	border-radius: 6px;
+	background-color: #B2DDFF;
+	margin: 0 10px 30px 0;
+}
+#size_selection_article header{
+	height: 19px;
+	width: 150px;
+	border-radius: 6px 6px 0 0;
+	padding: 10px 0 0 0px;
+	margin: 0 0 10px 20px;
+	font: normal 18px Arial;
+	color: #505050;
+	border-bottom: 1px solid #808080;
+}
+#size_selection_article section{
+	width: 572px;
+	margin: 20px 20px;
+}
+	#pstab{
+		width: 572px;
+		border-collapse: collapse;
+	}
+	#pstab td{
+		width: 190px;
+		text-align: center;
+	}
+	#sizetab td{
+		font: bold 18px tahoma;
+		color: #404040;
+	}
+/*******************************************************/
+
+/**********************EXTRAS BLOCK*********************/
+#title_article{
+	width: 594px;
+	height: 30px;
+	border-top: 1px solid #A52A2A;
+	border-bottom: 1px solid #A52A2A;
+	padding: 10px 0 0 20px;
+	margin: 0 10px 20px 0;
+	font: normal 21px Arial;
+	color: #606060;
+}
+#extras_article{
+	width: 612px;
+	border: 1px solid #808080;
+	margin: 0 10px 0 0;
+}
+.eash{
+	width: 554px;
+	margin: 0 auto;
+	padding: 10px 0 0 20px;
+	height: 20px;
+	border-bottom: 1px solid #A0A0A0;
+	font: normal 15px arial;
+	color: #404040;
+}
+#eas table{
+	width: 574px;
+	margin: 20px;
+	border-collapse: collapse;
+}
+	#eas table td{
+		border: 1px solid #D0D0D0;
+	}
+	.extrasimg{
+		width: 100px;
+		text-align: center;
+		padding: 0px;
+	}
+	.drinkartsection img{
+		width: 99px;
+		height: 66px;
+	}
+	.extrassimb{
+		width: 20px;
+		text-align: center;
+	}
+	.extrasdescription{
+		width: 260px;
+		padding:0 20px;
+	}
+		.extrasdescription header{
+			width: 200px;
+			font: bold 13px calibri;
+			color: #404040;
+		}
+		.extrasdescription section{
+			width: 200px;
+			font: bold 13px calibri;
+			color: #909090;
+		}
+	.extrasprice{
+		width: 80px;
+		padding-left: 20px;
+		font: bolder 18px calibri;
+		color: #404040;
+	}
+	.extrascheckbox{
+		text-align: center;
+	}
+
+.checkout_aside{margin: 0 0 30px 0;}
+#cah{
+	width: 274px;
+	height: 20px;
+	padding: 0 10px;
+	border: 2px solid #404040;
+	border-radius: 8px 8px 0 0;
+	background-color: #404040;
+	font: bold 15px Arial;
+	color: #E0E0E0;
+}
+#cas{
+	width: 274px;
+	padding: 10px;
+	border: 2px solid #404040;
+}
+#cas table{
+	border-collapse: collapse;
+}
+#cas table td{
+	text-align: left;
+	border: 1px solid #808080;
+	padding: 5px 10px;
+}
+#cas table .item{
+	width:198px;
+}
+#cas table thead td, #cas table tfoot td{
+	font: bolder 13px arial;
+	color: #606060;
+}
+#cas table tfoot td{
+	background-color: #C1E4FF;
+}
+#cas table tbody td.cell2{
+	font: bolder 12px arial;
+	color: #707070;
+}
+#cas table tbody td.cell1{
+	font: normal 14px arial;
+	color: #707070;
+}
+
+#eaf{
+    clear: both;
+    width: 532px;
+    margin: 20px 20px;
+    height: 30px;
+    padding: 10px 20px;
+    border: 1px solid #909090;
+    text-align: right;
+}
+#eaf input{
+    display: inline-block;
+    width: 120px;
+    height: 28px;
+    border: 1px solid #505050;
+    border-radius: 6px;
+    font: bolder 15px Arial;
+    color: #E0E0E0;
+}
+
+#caf{
+	height: 30px;
+	width: 298px;
+	text-align: right;
+	padding-right: 10px;
+}
+.p_button{
+	width: 150px;
+	height: 28px;
+	line-height: 28px;
+ 	font: bolder 20px calibri;
+ 	color: #404040;
+ 	border: 1px solid #808080;
+ 	border-radius: 5px;
+ 	margin-top: 10px;
+}

@@ -1,0 +1,107 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+	font: bold 45px times;
+	padding-bottom: 10px;
+}
+
+h2{
+	font: bold 14px times;
+}
+
+h3{
+	font: bold 34px times;
+}
+
+header, nav, section, article, hgroup, aside, footer{
+	display:block;
+}
+
+body{
+	text-align:center;
+}
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+#big_wrapper{
+	width: 1000px;
+	margin: 20px auto;
+	text-align: left;
+	background-color: #fff;
+	border: 1px solid black;
+}
+
+#top_header{
+	border: 0px solid black;
+	border-bottom: 15px;
+	padding: 0px;
+	text-align: center;
+	font-family: times;
+}
+
+#footer{
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	border-top: 1px solid black;
+	background: #62B3F5;
+
+}
+
+#Booking_text{
+	float: center;
+}
+
+article{
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	padding: 8px;
+	margin-bottom: 10px;
+	background-color:#FEF3FA;
+	font-family: times;
+	
+}
+
+article header {text-align: center;}
+
+article h1{
+	font: bold 35px times;
+	padding-bottom: 10px;
+}
+
+article h2 {
+		text-align: left;
+		font-size: 110%;
+		text-decoration: underline;
+		padding-top: 15px;
+		padding-bottom: 10px;}
+		
+article p {font-size: 110%;
+		line-height: 25px;
+		}
+
+article p {
+	font-family:'Comic Sans';
+}
+article footer{
+	text-align: right;
+	padding-top: 10px;
+	font-family: Impact, Charcoal, sans-serif;
+	font-style: oblique;
+	font-size: 75%;
+	
+}
+
+article ul{
+	padding-left: 20px;
+}
+
+article ul li{
+	font-size: 150%;
+}
